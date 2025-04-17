@@ -15,7 +15,7 @@ class OrganizationAnalyzerTest {
 
     @Test
     void testSalaryValidationOutput() {
-        Employee manager = new Employee("1", "Boss", "Man", 48000, null);
+        Employee manager = new Employee("1", "Boss", "Man", 44000, null);
         Employee emp1 = new Employee("2", "Sub", "One", 40000, "1");
         Employee emp2 = new Employee("3", "Sub", "Two", 40000, "1");
 
